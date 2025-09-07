@@ -1,0 +1,55 @@
+:root {
+  /* Primary */
+  --Green500: hsl(158, 36%, 37%);
+  --Green700: hsl(158, 42%, 18%);
+
+  /* Neutral */
+
+  --Black: hsl(212, 21%, 14%);
+  --Grey: hsl(228, 12%, 48%);
+  --Cream: hsl(30, 38%, 92%);
+  --White: hsl(0, 0%, 100%);
+
+  /* Font */
+
+  /* - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--Cream);
+}
+
+.container {
+  display: flex;
+  background-color: var(--White);
+  width: 60%;
+  border-radius: 15px;
+}
+
+.text-container,
+.img-parfum {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.text-content {
+  padding: 20px;
+}
